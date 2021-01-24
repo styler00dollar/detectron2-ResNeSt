@@ -4,15 +4,15 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/resnest-split-attention-networks/instance-segmentation-on-coco-minival)](https://paperswithcode.com/sota/instance-segmentation-on-coco-minival?p=resnest-split-attention-networks)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/resnest-split-attention-networks/object-detection-on-coco-minival)](https://paperswithcode.com/sota/object-detection-on-coco-minival?p=resnest-split-attention-networks)
 
-# Detectron2 (Original+ResNeSt)
+# Detectron2 (Original+ResNeSt+centermask2)
 
 This is a modification of the offiical detectron2 colab that can be found [here](https://colab.research.google.com/drive/16jcaJoc6bCFAQ96jDe2HwtXj7BMD_-m5 ).
 
-This colab is a combination of [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) and [zhanghang1989/detectron2-ResNeSt](https://github.com/zhanghang1989/detectron2-ResNeSt).
+This colab is a combination of [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2), [zhanghang1989/detectron2-ResNeSt](https://github.com/zhanghang1989/detectron2-ResNeSt) and [youngwanLEE/centermask2](https://github.com/youngwanLEE/centermask2).
 
 #### Important information
 
-- If you can't open `Colab-Detectron2-(Original+ResNeSt).ipynb` inside your Google Drive, try this [colab link](https://colab.research.google.com/github/styler00dollar/Colab-Detectron2-with-Original-and-ResNeSt/blob/resnest/Colab-Detectron2-(Original%2BResNeSt).ipynb) and save it to your Google Drive. The "open in Colab"-button can be missing in Google Drive, if that person never used Colab.
+- If you can't open `Colab-Detectron2.ipynb` inside your Google Drive, try this [colab link](https://colab.research.google.com/github/styler00dollar/Colab-Detectron2/blob/resnest/Colab-Detectron2.ipynb) and save it to your Google Drive. The "open in Colab"-button can be missing in Google Drive, if that person never used Colab.
 - Google Colab does assign a random GPU. It depends on luck.
 - The Google Colab VM does have a maximum session length of 12 hours. Additionally there is a 30 minute timeout if you leave colab. The VM will be deleted after these timeouts.
 
